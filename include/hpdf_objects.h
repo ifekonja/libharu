@@ -61,7 +61,7 @@ extern "C" {
 #define  HPDF_OSUBCLASS_EXT_GSTATE_R  0x0B00  /* read only object */
 #define  HPDF_OSUBCLASS_NAMEDICT      0x0C00
 #define  HPDF_OSUBCLASS_NAMETREE      0x0D00
-#define  HPDF_OSUBCLASS_SHADING       0x0E00
+
 
 
 /*----------------------------------------------------------------------------*/
@@ -79,7 +79,7 @@ extern "C" {
  *  3       reserved
  *  4       shadow-object
  *  5-8     reserved
- *  9-32    object
+ *  9-32   
  *
  *  the real Object-ID is described "obj_id & 0x00FFFFFF"
  */
@@ -597,7 +597,6 @@ typedef HPDF_Array HPDF_Destination;
 typedef HPDF_Dict  HPDF_U3D;
 typedef HPDF_Dict  HPDF_OutputIntent;
 typedef HPDF_Dict  HPDF_JavaScript;
-typedef HPDF_Dict  HPDF_Shading;
 
 #ifdef __cplusplus
 }
